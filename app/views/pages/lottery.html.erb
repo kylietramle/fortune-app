@@ -1,0 +1,11 @@
+<h1>Lottery</h1>
+
+<p>Your lottery numbers for today:</p>
+<ul>
+  <% @lottery.each do |number| %>
+  <li><%= number %></li>
+  <% end %>
+</ul>
+
+<p>And the mega is:</p>
+<p><%=@mega%></p>
